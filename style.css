@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+
+.main{
+    height: 100vh;
+    width: 98.72vw;
+    
+  
+}
+
+nav{
+    box-shadow: 1px 1px 8px rgb(30, 29, 29);
+    display: flex;
+    height: 12%;
+    padding-top: 1%;
+    background-color: rgba(250, 216, 174, 0.53);
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2%;
+    z-index: 10;
+    position:sticky;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+nav a{ all: unset;}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navs{
+    width: 60%;
+    column-gap: 5%;
+    justify-content: flex-end;
+}
+
+.navs li{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.logo{
+    font-weight: 900;
+}
+
+#cart_icon{
+    font-weight: 900;
+}
+
+#loginbtn{
+
+    padding: 3px 10px;
+    border: 1px solid black;
+}
+
+#registerbtn{
+    background-color: rgb(31, 30, 30);
+    color: aliceblue;
+    padding: 3px 10px;
+    border: 1px solid rgb(168, 158, 158);
+}
+
+
+.headings{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 4% 3%;
+    color: antiquewhite;
+    background-color: #220F3C;
+}
+
+#home{
+    
+    display: flex;
+   flex-wrap: nowrap;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#search_bar{
+    
+    all:unset;
+    text-decoration: solid rgb(234, 232, 232);
+    color: #f0e8e8;
+    background-color: rgba(0, 0, 0, 0);
+    width: 35vw;
+    height: 5vh;
+    border-radius: 25px;
+    border: 1.5px #000 solid;
+    padding: 5px 5px 5px 25px;
+}
+
+#explore_btn, #about_btn{
+    all:unset;
+    padding: 2px 2px;
+    border-radius: 25px;
+    border: 1.5px #000 solid;
+    height: 5vh;
+    width: 6vw;
+    color: #000;
+    padding: 3px 10px;
+    border: 1.5px solid black;
+    align-items: center;
+    background-color: rgba(250, 216, 174, 0.53);
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 1px 2px 1px rgb(37, 37, 37);
+    
+}
+
+#about_btn{
+    color: antiquewhite;
+    margin-left: 20px;
+    background-color:rgb(23, 22, 22) ;
+}
+
+.notification{
+    overflow: hidden;
+}
+marquee{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: antiquewhite;
+    font-size: 22px;
+   height: 50px;
+   border: 1.5px solid #000;
+   font-weight: 600;
+  
+}
+
+.categories{
+    height: 100vh;
+    margin-top:25px;
+    
+
+}
+
+
+.category ul{
+    gap: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    justify-content: center;
+
+}
+
+.category ul #active{
+    border-bottom: 2px solid #000;
+}
+
+.category ul li{
+    cursor: pointer;
+}
+
+.sec-category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sec-category div{
+    cursor: pointer;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(154, 152, 152);
+    width: 120px;
+    border-radius: 35px;
+}
+
+
+
+.sec-category p{
+    font-size: 10px;
+}
+
+.sec-category #active{
+    color: antiquewhite;
+    background-color: #1b1a1a;
+}
+
+.item1{
+    padding-top: 2%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card img{
+    max-height:150px ;
+}
+
+#all_courses{
+    
+    all: unset;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    
+    
+}
+
+.courses h5{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.courses .card-text{
+    
+    font-size: 13px;
+}
+
+.courses .course_price{
+    font-size: 16px;
+    font-weight: 700;
+}
+.partners{
+    margin-top: 5%;
+    padding: 5% 5%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.partners h6{
+
+    text-align: center;
+}
+
+.companies{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+}
+
+.plans{
+    margin-top: 5%;
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.plans .card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+
+.plans .card-subtitle{
+    font-size: 10px;
+}
+
+.plans h5{
+   color: #4d4b4b;
+    font-size: 15px;
+}
+
+.plans h6{
+    color: #4d4b4b;
+     font-size: 10px;
+ }
+
+ .plans #price{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 8%;
+    color: #080808;
+     font-size: 15px;
+     font-weight: 600;
+ }
+
+ .plans button{
+
+   font-weight: 700;
+    padding: 2% 19%;
+    background-color: #000;
+    color: #f0e8e8;
+ }
+
+ .plans .specs{
+    margin-top: 8%;
+    font-size: 12px;
+ }
+
+
+ footer{
+    height: 200px;
+    margin-top: 5rem;
+    background-color: #2D2F31;
+    color: #f0e8e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+footer #tagline{
+ text-align: center;
+ padding-top: 3%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ .contact{
+ 
+  text-align: center;
+
+ }
+
